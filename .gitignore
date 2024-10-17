@@ -14,6 +14,7 @@ android/.externalNativeBuild/
 android/.cxx/
 android/*.apk
 android/output.json
+android/app/build
 
 # IntelliJ
 android/*.iml
@@ -31,6 +32,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
-node-modules/
 package-lock.json
 yarn.lock
+node_modules

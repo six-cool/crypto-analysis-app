@@ -1,0 +1,72 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    paddingTop: 10,
+    paddingHorizontal: 10,
+  },
+  SafeAreaView1: { backgroundColor: '#FFF', flex: 0 },
+  SafeAreaView2: { flex: 1, backgroundColor: '#FFF', width: '100%' },
+  outerWrapper: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'stretch',
+    justifyContent: 'flex-start',
+    backgroundColor: '#FFF',
+    paddingHorizontal: 12,
+    paddingTop: 36,
+    width: '100%',
+  },
+  buttonStyle: {
+    backgroundColor: '#EEE',
+    paddingHorizontal: 40,
+    paddingVertical: 30,
+    borderWidth: 0.5,
+    borderColor: '#F0F0F0',
+    borderRadius: 10,
+  },
+  text: {
+    fontSize: 14,
+    color: '#207198',
+    fontWeight: 'normal',
+    textAlign: 'left',
+    paddingLeft: 4,
+  },
+  inputField: {
+    borderColor: '#207198',
+    borderWidth: 2,
+    borderRadius: 6,
+    width: '100%',
+    fontSize: 16,
+    paddingVertical: 10,
+    paddingHorizontal: 6,
+  },
+  errorText: {
+    color: 'red',
+    fontSize: 12,
+    fontWeight: '300',
+    textAlign: 'left',
+    paddingLeft: 4,
+  },
+  formView: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'stretch',
+    paddingBottom: 12,
+  },
+  submitButton: {
+    width: '100%',
+    backgroundColor: '#FB724C',
+    fontSize: 18,
+    fontWeight: 'bold',
+    padding: 12,
+    textAlign: 'center',
+    color: '#FFF',
+    borderRadius: 12,
+  },
+  pressedButton: {
+    backgroundColor: '#FE904B',
+  },
+});
